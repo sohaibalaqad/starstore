@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.search_box{
+    padding-top: 15px;
+    width: 100%;
+    height: 50px;
+}
+.search_box input{
+    height: 25px;
+    width: 300px;
+    position: absolute;
+    left: 100px;
+}
+.search_box .search_icon{
+    position: absolute;
+    left: 60px;
+}
+.logo {
+    width: auto;
+    height: 50px;
+    position: absolute;
+    top: 7px;
+    left: 42.5%;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.language_list{
+    position: absolute;
+    right: 15%;
+    top: 24px;
+    width: 80px;
+    text-transform: capitalize; 
+}
+.user_icon{
+    position: absolute;
+    right: 10%;
+}
+.cart_icon{
+    position: absolute;
+    right: 5%;
+}
+.menu_{
+width: 100%;
+height: 75px;
+background-color: #1e1e27;
+}
+nav{
+    width: auto;
+}
+ul {
+    margin-top: 23px;
+    position: absolute ;
+    list-style: none;
+    top: 70px;
+    left: 13%;
+}
+nav li {
+    display: inline-block;
+    padding-left: 80px;
+    text-transform: uppercase;
+}
+.nav_link{
+    text-decoration: none;
+    color: white; 
+    transition-duration: 2s; 
+
+}
+.nav_link , .current {
+    color:rgb(255, 255, 255);
+    position: relative;
+    font-size: 18px;
+}
+.nav_link::before , .current::before{
+   content: "";
+   position: absolute;
+   left:0;
+   bottom: -8px;
+   width: 100%;
+   height: 2px;
+   background-color : #bb3172 ;
+   transform: scaleX(0);
+   transform-origin: left;
+   transition: transform 350ms;
+    
+}
+.current::before{
+    transform: scaleX(1);
+}
+.nav_link:hover::before{
+    transform: scaleX(1);
+}
+/* footer */
+footer {
+    width: auto;
+    height: 40px;
+    background-color: rgb(37, 36, 36);
+    text-align: center;
+    padding: 20px;
+    color: rgb(128, 128, 128);
+}
+.Social {
+    padding: 0px 20px;
+    font-size: 20px;
+    width: 30px;
+    text-decoration: none;
+    color: grey;
+}
+.Social img{
+    padding: 5px;
+}
+.up_icon{
+    position: absolute;
+    right: 20px;
+}
+.up_icon img{
+    padding: 5px;
+    width: 40px;
+}

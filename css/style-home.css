@@ -1,0 +1,208 @@
+
+.background_home{
+    width: 100%;
+    background-size: cover;
+}
+
+.Best_seller h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.Best_seller hr{
+    width: 130px; 
+    position: absolute; 
+    left: 50%; 
+    transform: translate(-50%);
+    border: 2px solid #bb3172;
+}
+.Best_seller_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 0px 20px;   
+    justify-items: center;
+    margin-top: 40px;
+}
+.product_best h5{   
+    text-align: center;
+    color: #4d4548; 
+    font-size: medium;
+    margin-bottom: 5px;
+}
+.product_best .product_price {
+    font-size: 16px;
+    color: #bb3172;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product_price span {
+    font-size: 12px;
+    margin-left: 10px;
+    color: #b5aec4;
+    text-decoration: line-through;
+}
+.product_best img{   
+    width: 100%;
+}
+.Buy_best_product_now{
+    text-align: center;    padding: 20px;
+}
+.Buy_best_product_now a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.product_best:hover{
+    box-shadow: 5px 5px 5px 5px #d1d1d1 ;
+}
+.product_best:hover .Buy_best_product_now{
+   background-color: #bb3172;
+}
+/* ----------------- */
+.part-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 0;
+    background-image: url(../media/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.part-2 .ditail {
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 20px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: white;
+}
+.part-2 .ditail .try {
+    height: 65px;
+    width: 195px;
+    border-radius: 70px;
+    text-transform: uppercase;
+    padding: 0px;
+    border: none;
+    font-size: 14px;
+    background-color: #bb3172;
+    color: white;
+    margin: 30px 10px 0 0;
+}
+/* -------------- */
+.delivery_price{
+    width: 100%;
+}
+.delivery_price h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.delivery_price hr{
+    width: 330px; 
+    position: absolute; 
+    left: 50%; 
+    transform: translate(-50%);
+    border: 2px solid #bb3172;
+}
+.customers {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 50px auto;
+}
+  
+.customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+.customers tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+  
+.customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #bb3172;
+    color: white;
+}
+/* --------------- */
+.contact {
+    background-color: white;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+}
+.contact h1{
+    text-align: center;
+    text-transform: capitalize;
+    /* color: #bb3172; */
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.contact p{
+   margin-top: 40px;
+}
+.inp_contact {
+    padding-left: 20px;
+    margin: 10px;
+    width: 500px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+textarea {
+    padding-top: 10px;
+    padding-left: 20px;
+    margin: 10px;
+    width: 500px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.but_send {
+    padding: 9px 35px;
+    background-color: #bb3172;
+    color: white;
+    font-size: 18px;
+    border: solid 2px #bb3172;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+.contact hr{
+    width: 130px; 
+    position: absolute; 
+    left: 50%; 
+    transform: translate(-50%);
+    border: 2px solid #bb3172;
+}
+.inp_contact:focus {
+    outline: none;
+    color: #bb3172;
+    border-color: #bb3172;
+}
+textarea:focus {
+    outline: none;
+    color: #bb3172;
+    border-color: #bb3172;
+}
+.but_send:hover {
+    background-color: white;
+    border: solid 2px #bb3172;
+    color: #bb3172;
+}
+.lebel_discrption{
+    margin-left: -110px;
+    color: #bb3172;
+    text-transform: capitalize;
+}
+/* ------------------- */
+
